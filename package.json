@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Trecho de código do curso de HD Virtual com PWA e Firebase",
   "scripts": {
-    "start": "webpack --mode=development",
+    "start": "npm run server",
+    "dev": "webpack --mode=development",
+    "watch": "webpack --mode=development --watch=true",
+    "server": "webpack-dev-server --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
