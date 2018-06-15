@@ -1,8 +1,9 @@
 {
-  "name": "hd virt pwa",
+  "name": "hd-virt-pwa",
   "version": "1.0.0",
   "description": "Trecho de código do curso de HD Virtual com PWA e Firebase",
   "scripts": {
+    "start" : "webpack --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
