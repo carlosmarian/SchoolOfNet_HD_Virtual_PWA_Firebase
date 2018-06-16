@@ -3,12 +3,10 @@ require('./style.scss');
 class Init{
     constructor(name){
         console.log(`Olá ${name}`);
-        
-        let partial = require('./partial.html');
-
+        let component = require('./template/')
         let app = document.getElementById('app');
-        app.innerHTML = partial;
-
+        app.innerHTML = component.template;
+        component.action();
     }
 }
 
