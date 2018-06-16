@@ -1,4 +1,3 @@
-require('./style.scss');
 
 class Init{
     constructor(name){
