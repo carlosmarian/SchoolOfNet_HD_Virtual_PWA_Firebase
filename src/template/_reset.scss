@@ -1,0 +1,24 @@
+/*
+O nome do arquivo tem um _ no inicio para indicar que ele faz parte de outro arquivo.
+Isso é só um conversão.
+*/
+*{
+    border : none;
+    margin : 0;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    background: transparent;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
